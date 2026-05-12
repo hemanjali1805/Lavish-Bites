@@ -15,7 +15,7 @@ export const CartProvider = ({ children }) => {
 
   const fetchCart = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/cart');
+      const res = await axios.get('http://lavish-bites-1.onrender.com/api/cart');
       setCart(res.data);
     } catch (err) {
       console.error(err);
@@ -24,7 +24,7 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = async (productId, quantity = 1) => {
     try {
-      const res = await axios.post('http://localhost:5000/api/cart/add', { productId, quantity });
+      const res = await axios.post('http://lavish-bites-1.onrender.com/api/cart/add', { productId, quantity });
       setCart(res.data);
     } catch (err) {
       console.error(err);
@@ -33,7 +33,7 @@ export const CartProvider = ({ children }) => {
 
   const updateCart = async (productId, quantity) => {
     try {
-      const res = await axios.put('http://localhost:5000/api/cart/update', { productId, quantity });
+      const res = await axios.put('http://lavish-bites-1.onrender.com/api/cart/update', { productId, quantity });
       setCart(res.data);
     } catch (err) {
       console.error(err);
@@ -42,7 +42,7 @@ export const CartProvider = ({ children }) => {
 
   const removeFromCart = async (productId) => {
     try {
-      const res = await axios.delete(`http://localhost:5000/api/cart/remove/${productId}`);
+      const res = await axios.delete(`http://lavish-bites-1.onrender.com/api/cart/remove/${productId}`);
       setCart(res.data);
       toast.success('Removed from cart!');
     } catch (err) {

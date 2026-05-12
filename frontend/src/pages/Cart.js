@@ -35,7 +35,7 @@ const Cart = () => {
     e.preventDefault();
     try {
       // Assuming order API
-      await fetch('http://localhost:5000/api/orders', {
+      await fetch('http://lavish-bites-1.onrender.com/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
