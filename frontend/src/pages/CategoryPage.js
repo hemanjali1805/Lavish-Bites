@@ -17,7 +17,7 @@ const CategoryPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get(`http://lavish-bites-1.onrender.com/api/products/${category}`);
+        const res = await axios.get(`http://lavish-bites-backend.onrender.com/api/products/${category}`);
         setProducts(res.data);
       } catch (err) {
         console.error(err);

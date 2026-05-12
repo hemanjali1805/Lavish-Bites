@@ -80,7 +80,7 @@ MongoServerError: bad auth : authentication failed
 ==> 
 ==> ///////////////////////////////////////////////////////////
 ==> 
-==> Available at your primary URL https://lavish-bites-1.onrender.com
+==> Available at your primary URL https://lavish-bites-backend.onrender.com
 ==> 
 ==> ///////////////////////////////////////////////////////////
 ==> Deploying...
@@ -348,7 +348,7 @@ Frontend lo search cheyyi:
 http://localhost:5000
 Danni replace cheyyi with your backend URL:
 
-https://lavish-bites-1.onrender.com
+https://lavish-bites-backend.onrender.com
 Then:
 
 git add .
@@ -565,7 +565,7 @@ Search:
 http://localhost:5000
 If dorikithe replace with your backend:
 
-https://lavish-bites-1.onrender.com
+https://lavish-bites-backend.onrender.com
 Then:
 
 git add .
@@ -1191,7 +1191,7 @@ Replace this:
 http://localhost:5000
 with:
 
-https://lavish-bites-1.onrender.com
+https://lavish-bites-backend.onrender.com
 STEP 3 — Save all files
 Ctrl + S
 STEP 4 — Push changes
@@ -1246,7 +1246,7 @@ ni delete chesi
 
 idi paste cheyyi:
 
-https://lavish-bites-1.onrender.com
+https://lavish-bites-backend.onrender.com
 STEP 4 — Save Files
 Keyboard:
 
@@ -1322,7 +1322,7 @@ untundi.
 Replace Cheyyi
 Danni delete chesi:
 
-https://lavish-bites-1.onrender.com
+https://lavish-bites-backend.onrender.com
 paste cheyyi.
 
 Example
@@ -1331,7 +1331,7 @@ Before:
 axios.post("http://localhost:5000/api/auth/login")
 After:
 
-axios.post("https://lavish-bites-1.onrender.com/api/auth/login")
+axios.post("https://lavish-bites-backend.onrender.com/api/auth/login")
 IMPORTANT
 Search results lo unna anni localhost:5000 replace cheyyi ✅
 
@@ -1354,7 +1354,7 @@ Mee left side search results lo localhost:5000 5 files lo undhi.
 
 Mee task:
 http://localhost:5000 ni
-https://lavish-bites-1.onrender.com tho replace cheyyali.
+https://lavish-bites-backend.onrender.com
 
 FILE 1 — AuthContext...
 Left side:
@@ -1367,7 +1367,7 @@ Akkada ila untundi:
 axios.post('http://localhost:5000/...')
 Danni ila marchi:
 
-axios.post('https://lavish-bites-1.onrender.com/...')
+axios.post('https://lavish-bites-backend.onrender.com/...')
 Akkada 2 places unnayi → rendu replace cheyyi.
 
 FILE 2 — CartContext.js
@@ -1381,7 +1381,7 @@ Example:
 axios.get('http://localhost:5000/...')
 Replace with:
 
-axios.get('https://lavish-bites-1.onrender.com/...')
+axios.get('https://lavish-bites-backend.onrender.com/...')
 ALL 4 replace cheyyi.
 
 FILE 3 — Cart.js
@@ -1393,7 +1393,7 @@ Akkada:
 fetch('http://localhost:5000/...')
 Replace with:
 
-fetch('https://lavish-bites-1.onrender.com/...')
+fetch('https://lavish-bites-backend.onrender.com/...')
 FILE 4 — CategoryPage...
 Click:
 
@@ -1403,7 +1403,7 @@ Akkada:
 axios.get('http://localhost:5000/...')
 Replace with:
 
-axios.get('https://lavish-bites-1.onrender.com/...')
+axios.get('https://lavish-bites-backend.onrender.com/...')
 FINAL STEP
 All files save cheyyi:
 
@@ -1426,7 +1426,7 @@ Before:
 axios.post('http://localhost:5000/api/auth/login'
 After:
 
-axios.post('https://lavish-bites-1.onrender.com/api/auth/login'
+axios.post('https://lavish-bites-backend.onrender.com/api/auth/login')
 Alage migatha localhost links anni same way lo replace cheyyi 😄
 
 
@@ -1487,7 +1487,7 @@ npm run seed
    
 npm run dev
 
-   The server will run on http://lavish-bites-1.onrender.com
+   The server will run on http://lavish-bites-backend.onrender.com
 
 ### Frontend Setup
 
@@ -1575,7 +1575,7 @@ If you see:
 axios.post('http://localhost:5000/api/auth/login')
 replace with:
 
-axios.post('https://lavish-bites-1.onrender.com/api/auth/login')
+axios.post('https://lavish-bites-backend.onrender.com/api/auth/login')
 README file ni close chesi next search result file open cheyyi 😄
 
 
@@ -1585,7 +1585,7 @@ Avunu 😄 README lo okka small change cheyyi.
 
 Ikkada:
 
-The server will run on http://lavish-bites-1.onrender.com
+The server will run on http://lavish-bites-backend.onrender.com
 idi wrong.
 
 Replace with:
